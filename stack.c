@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
+#include<conio.h>  ///this is stack program
 #define max 10
 int a[max],top=0;
-void push(int item)
-{
-	if(top>=max)
+void push(int item) //dhfksdhfk
 	{
 		printf("\n\t\tSTACK OVERFLOW!!!!   Items cannot be inserted");
 		return;
