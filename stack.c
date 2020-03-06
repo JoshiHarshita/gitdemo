@@ -2,8 +2,8 @@
 #include<conio.h>  ///this is stack program
 #define max 10
 int a[max],top=0;
-void push(int item) //dhfksdhfk
-	{
+void push(int item) //changing on remote
+{
 		printf("\n\t\tSTACK OVERFLOW!!!!   Items cannot be inserted");
 		return;
     }
