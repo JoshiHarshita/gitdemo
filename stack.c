@@ -9,10 +9,12 @@ void push(int item) //dhfksdhfk
     }
     a[top]=item;
     top++;
+
 }                          /////in master
+
 int pop()
 {	int del;
-	if(top<0)
+	if(top<0)         
 	{
 		printf("\n\t\tSTACK UNDERFLOW!!!!    No item to delete");
 		return;
