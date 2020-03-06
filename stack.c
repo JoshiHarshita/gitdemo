@@ -9,7 +9,7 @@ void push(int item) //dhfksdhfk
     }
     a[top]=item;
     top++;
-}
+}                          /////in master
 int pop()
 {	int del;
 	if(top<0)
